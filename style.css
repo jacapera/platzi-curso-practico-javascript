@@ -1,0 +1,137 @@
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}*/
+header > p {
+    text-align: center;
+}
+header > h1 {
+    color: #0519DF;
+    text-align: center;
+    font-weight: bold;
+}
+body {
+    background-color: #a1d2ce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Mulish";
+    align-items: center;
+}
+button {
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #0519DF;
+    font-weight: bold;
+    
+}
+input {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.input-cuadrado {
+    background-color: #78cad2;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.form-input-cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-form-input-cuadrado {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-triangulo {
+    background-color: #78cad2;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+.form-input-triangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+.div-form-input-triangulo {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-circulo {
+    background-color: #78cad2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 600px;
+}
+.div-form-input-circulo {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-triangulo-isosceles {
+    background-color: #78cad2;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+.form-input-triangulo-isosceles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-input-triangulo-isosceles label {
+    display: grid;
+    grid-template-columns: 400px auto;
+    align-items: center;
+    text-align: end;
+}
+.div-form-input-triangulo-isosceles {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-input-triangulo label {
+    display: grid;
+    grid-template-columns: 350px auto;
+    align-items: center;
+    text-align: end;
+}
