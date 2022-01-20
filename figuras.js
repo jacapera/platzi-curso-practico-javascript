@@ -163,12 +163,12 @@ function calcularDiametroCirculo(){
 
 //-------------Calculos para altura del triangulo isosceles-------------
 function calcularAlturaTrianguloIsosceles(){
-        const inputLadoA = document.getElementById("inputTrianguloIsoscelesLadoA");
-        const valueLadoA = parseInt(inputLadoA.value);
-        const inputLadoB = document.getElementById("inputTrianguloIsoscelesLadoB");
-        const valueLadoB = parseInt(inputLadoB.value);
-        const inputBase = document.getElementById("inputTrianguloIsoscelesBase");
-        const valueBase = parseInt(inputBase.value);
-        const altura = alturaTrianguloIsosceles(valueLadoA, valueLadoB, valueBase);
-        alert("La altura para su triangulo Isósceles es: " + altura + "cm");
+    const inputLadoA = document.getElementById("inputTrianguloIsoscelesLadoA");
+    const valueLadoA = parseInt(inputLadoA.value);
+    const inputLadoB = document.getElementById("inputTrianguloIsoscelesLadoB");
+    const valueLadoB = parseInt(inputLadoB.value);
+    const inputBase = document.getElementById("inputTrianguloIsoscelesBase");
+    const valueBase = parseInt(inputBase.value);
+    const altura = alturaTrianguloIsosceles(valueLadoA, valueLadoB, valueBase);
+    alert("La altura para su triangulo Isósceles es: " + altura + "cm");
 }
